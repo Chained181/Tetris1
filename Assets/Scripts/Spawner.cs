@@ -1,10 +1,11 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject[] Qubes;
+    public List<GameObject> Qubes;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,10 +14,14 @@ public class Spawner : MonoBehaviour
 
     public void NewQube()
     {
-        Instantiate(Qubes[Random.Range(0, Qubes.Length)], transform.position, Quaternion.identity);
+        Instantiate(Qubes[Random.Range(0, Qubes.Count)], transform.position, Quaternion.identity);
     }
 
-
+    private void Awake()
+    {
+        Qubes = GameModeManager.instance.Qubes;
+       
+    }
 
 
 

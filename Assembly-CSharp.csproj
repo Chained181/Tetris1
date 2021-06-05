@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\HighScore.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\GameOverScore.cs" />
+    <Compile Include="Assets\Scripts\GameModeManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ColorfulButtons\Credits.txt" />

@@ -12,7 +12,11 @@ public class UIManager : MonoBehaviour
     {
         
     }
+    public static void LoadScene()
+    {
 
+        SceneManager.LoadScene("GameMode");
+    }
     public static void Play()
     {
         SceneManager.LoadScene("Game");
@@ -29,6 +33,10 @@ public class UIManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void Menu()
+    {
+        SceneManager.LoadScene("menu");
+    }
 
 
 }
