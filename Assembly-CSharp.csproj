@@ -61,9 +61,14 @@
     <Compile Include="Assets\Scripts\LoadGame.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\HighScore.cs" />
-    <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Scripts\GameOverScore.cs" />
     <Compile Include="Assets\Scripts\GameModeManager.cs" />
+    <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\ChangeUI.cs" />
+    <Compile Include="Assets\Scripts\GameOverScore.cs" />
+    <Compile Include="Assets\Scripts\ScriptsDesighn\GameDesighn.cs" />
+    <Compile Include="Assets\Scripts\ScriptsDesighn\GameModeDesighn.cs" />
+    <Compile Include="Assets\Scripts\ScriptsDesighn\GameOverDesighn.cs" />
+    <Compile Include="Assets\Scripts\ScriptsDesighn\MenuDesignh.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ColorfulButtons\Credits.txt" />
